@@ -14,6 +14,8 @@ Our user interface is intentionally designed to be simple and clean, using a cal
 
 The homepage prompts the user to create a journal entry, leading them to the journal entry screen.
 
+![ss/Home.png](ss/Mindfull_1.png)
+
 ### Journal Entry Screen
 
 This screen asks the user to submit three fields:
@@ -22,7 +24,11 @@ This screen asks the user to submit three fields:
 2. One good thing that happened to them that day
 3. One bad thing that happened to them that day
 
-![ss/Mind_2.png](ss/Mind_2.png)
+![ss/Journal.png](ss/Mindfull_2.png)
+![ss/Journal2.png](ss/Mindfull_3.png)
+![ss/Journal3.png](ss/Mindfull_4.png)
+![ss/Journal8.png](ss/Mindfull_8.png)
+![ss/Journal9.png](ss/Mindfull_9.png)
 
 These journal entries are saved in a MySQL database on TablePlus.
 
@@ -32,13 +38,15 @@ These journal entries are saved in a MySQL database on TablePlus.
 
 Here, users can send a message to their therapist. Currently, it sends a user's message and then creates a dummy message right after it, so when you click 'receive messages', it displays your message with a "response" from a therapist.
 
-![ss/Mind_3.png](ss/Mind_3.png)
+![ss/Message1.png](ss/Mindfull_5.png)
+![ss/Message2.png](ss/Mindfull_6.png)
+![ss/Message3.png](ss/Mindfull_7.png)
 
-![ss/Mind_4.png](ss/Mind_4.png)
+These are also saved in a separate table called "messages".
 
-Server API design and specification
+### Server API design and specification
 
-Our API is designed to support the app's functionality with details about its endpoint, supported method (GET/POST), and parameters.
+The API is designed to support the app's functionality with details about its endpoint, supported method (GET/POST), and parameters.
 
 ### Message API
 
